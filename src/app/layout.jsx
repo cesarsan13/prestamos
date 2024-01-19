@@ -1,5 +1,5 @@
 import "./globals.css";
-import UpNavBar from "@/components/UpNavBar";
+import NavBar from "@/components/NavBar";
 import { Inter } from "next/font/google";
 import SideBar from "@/components/SideBar";
 import HomePage from "./page";
@@ -17,13 +17,13 @@ export default function RootLayout({ children }) {
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
       </head>
       <body className={inter.className}>
-        <div className="flex flex-col h-screen bg-gray-100">
+        <div className="flex flex-col h-screen ">
           {/* <!-- Barra de navegación superior --> */}
-          <UpNavBar />
+          {/* <NavBar /> */}
           {/* <!-- Contenido principal --> */}
           <div className="flex-1 flex flex-wrap">
             {/* <!-- Barra lateral de navegación (oculta en dispositivos pequeños) --> */}
-            <SideBar />
+            {/* <SideBar /> */}
             {/* <!-- Área de contenido principal --> */}
             <div className="flex-1 p-4 w-full md:w-1/2">
               {children}

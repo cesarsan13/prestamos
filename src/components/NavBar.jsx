@@ -1,6 +1,6 @@
 import React from 'react'
 
-function UpNavBar() {
+function NavBar() {
     return (
         <div className="bg-white text-white shadow w-full p-2 flex items-center justify-between">
             <div className="flex items-center">
@@ -30,4 +30,4 @@ function UpNavBar() {
     )
 }
 
-export default UpNavBar
+export default NavBar
