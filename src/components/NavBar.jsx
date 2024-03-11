@@ -1,5 +1,5 @@
+'use client';
 import React from 'react'
-
 function NavBar() {
     return (
         <div className="bg-white text-white shadow w-full p-2 flex items-center justify-between">

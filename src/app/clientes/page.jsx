@@ -1,6 +1,8 @@
+'use client';
 import React from 'react'
-
+import { useSession } from 'next-auth/react'
 function Clientes() {
+    const {data: session,status}= useSession()
     return (
         <>
             {/* <!-- Campo de búsqueda --> */}
